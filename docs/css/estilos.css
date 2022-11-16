@@ -142,7 +142,7 @@ header nav a img {
   }
 }
 .headerNosotros {
-  background-image: url(../../img/Header-Nosotros.png);
+  background-image: url(../img/Header-Nosotros.png);
   height: 650px;
   background-size: cover;
   position: relative;
@@ -178,7 +178,7 @@ header nav a img {
   }
 }
 .headerPlanos {
-  background-image: url(../../img/Header-Planos.png);
+  background-image: url(../img/Header-Planos.png);
   height: 650px;
   background-size: cover;
   position: relative;
@@ -215,7 +215,7 @@ header nav a img {
   }
 }
 .headerServicios {
-  background-image: url(../../img/Header-Servicios.png);
+  background-image: url(../img/Header-Servicios.png);
   height: 650px;
   background-size: cover;
   position: relative;
@@ -252,7 +252,7 @@ header nav a img {
   }
 }
 .headerContacto {
-  background-image: url(../../img/Header-Contacto.png);
+  background-image: url(../img/Header-Contacto.png);
   height: 650px;
   background-size: cover;
   position: relative;
