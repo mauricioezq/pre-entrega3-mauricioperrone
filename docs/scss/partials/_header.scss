@@ -1,0 +1,287 @@
+@use "./variables";
+
+// Header del Index + clases generales
+
+header{
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    background-image: url(../../img/Header.png);
+    
+    nav{
+        div{
+            div{
+                ul{
+                    li{
+                        font-weight:600;
+                        a:hover{ 
+                            color: #3d3d3d!important;
+                            background-color: #eeeeee;
+                            font-weight: variables.$fuenteBold;
+                                }
+                        
+                        }
+                    }
+                }
+            }
+        a{
+            img{
+                width: 300px
+            }
+        }
+        };
+    }
+    
+
+    
+    .titulo{
+        font-size: 50px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+        position:absolute;
+        top: 50%;
+        transform: translateY(-55%);
+    }
+    .ajuste_lineas{
+        margin: 0;
+    }
+    
+    .btn{
+        background-color: variables.$colorPrincipal;
+        border-radius: 20px;
+        color: white;
+        font-weight: 600;
+        padding: 10px 30px;
+        font-size: 25px;
+        position: absolute;
+        top: 75%;
+        transform: translateY(-45%);
+    }
+    .btn:hover {
+        color: #3d3d3d;
+        background-color: #eeeeee;
+        border-radius: 20px;}
+
+/* de 960 para abajo px - TABLETS para abajo */
+
+@media(max-width:960px){
+    .navbar-nav{
+        background-color: variables.$colorPrincipal;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding-left: 30px;
+    }
+    
+    nav{
+        z-index: 100;
+    }
+        .logoprincipal{
+            width: 250px;
+        }
+        .titulo{font-size: 45px;
+        text-align: center;}
+        .containerPrincipal{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .centerBtn{
+            display: flex;
+            justify-content: center;
+        }
+
+        #containerBtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main h2{margin: 30px 0px;}}
+
+        /* de 430 para abajo px - CELULARES CHICOS para abajo */
+        @media(max-width:430px){
+            
+            .titulo{
+                font-size: 30px;
+            }
+            .subtitleFont {
+                padding: 20px 10px;
+            }
+            .titleFont{
+                font-size: 30px;
+                padding-top: 0;
+                margin-top: 0%;
+            }
+            #textoVision{
+                margin: 0%;
+            }  
+}
+
+// Header Nosotros
+
+.headerNosotros{
+    background-image: url(../../img/Header-Nosotros.png);
+    height: 650px;
+    background-size: cover;
+    position: relative;
+}
+
+
+#subtitleNosotros{
+    margin-top: 300px;
+}
+
+.subtituloNosotros{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+    
+
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+
+@media(max-width:960px){
+    .containerSubtitulo {
+        justify-content: center;
+    }   
+    #subtitleNosotros{
+        margin-top: 300px;
+    }    
+}
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media(max-width:430px){
+    .tituloMovilNosotros{
+        top: 40%;
+        margin-left: 30px;
+        }
+    #subtitleNosotros{
+    margin-top: 250px;
+    }    }
+
+// Header Planos
+
+.headerPlanos{
+    background-image: url(../../img/Header-Planos.png);
+    height: 650px;
+    background-size: cover;
+    position: relative;
+}
+
+#subtitlePlanos{
+    margin-top: 300px;
+}
+
+.subtituloPlanos{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+
+@media(max-width:960px){
+    .containerSubtitulo {
+        justify-content: center;
+    }   
+    #subtitlePlanos{
+        margin-top: 250px;
+    }
+    .tituloMovilPlanos{
+        top: 40%;
+        margin-left: 120px;
+}    
+}
+
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media(max-width:430px){
+    .tituloMovilPlanos{
+        top: 40%;
+        margin-left: 120px;
+}}
+
+// Header Servicios
+
+.headerServicios{
+    background-image: url(../../img/Header-Servicios.png);
+    height: 650px;
+    background-size: cover;
+    position: relative;
+}
+
+#subtitleServicios{
+    margin-top: 300px;
+}
+
+.subtituloServicios{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+
+@media(max-width:960px){
+    .containerSubtitulo {
+        justify-content: center;
+    }   
+    #subtitleServicios{
+        margin-top: 250px;
+    } 
+    .tituloMovilServicios{
+        top: 40%;
+        margin-left: 100px;
+}   
+}
+
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media(max-width:430px){
+    .tituloMovilServicios{
+        top: 40%;
+        margin-left: 100px;
+}}
+
+// Header Contacto
+
+.headerContacto{
+    background-image: url(../../img/Header-Contacto.png);
+    height: 650px;
+    background-size: cover;
+    position: relative; 
+
+    #subtitleContacto{
+        margin-top: 200px;
+    }
+    
+    .subtituloContacto{
+        font-size: 25px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+    
+}}
+
+/* de 960 para abajo px - TABLETS para abajo */
+
+@media(max-width:960px){
+    .containerSubtitulo {
+        justify-content: center;
+    }   
+    #subtitleContacto{
+        margin-top: 250px;
+    } 
+    #botonMsj{
+        display: none;
+    }   
+}
+
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media(max-width:430px){
+    .headerContacto #subtitleContacto{
+        margin-top: 120px;
+    }
+    #botonMsj{
+        display: none;
+    }   
+}

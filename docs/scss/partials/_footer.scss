@@ -1,0 +1,43 @@
+@use "variables";
+
+footer{
+    background-color: variables.$colorSecundario;
+    padding: 100px 0px 50px 0px;
+    div{
+        h2{
+            font-weight: variables.$fuenteBold;
+        }
+        
+        .tamaño_redes{
+            width: 35px;
+            height: 35px;
+        }
+        
+        .tamaño_contacto{
+            width: 20px;
+            height: 20px;
+        }}
+
+/* de 960 para abajo px - TABLETS para abajo */
+
+    @media(max-width:960px){
+        .textoNosotros{
+            display: none;
+        }
+        .textoContacto{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .imgRedes{
+            justify-content: center;
+        }
+        .imgContactos{ display: flex;
+            justify-content: center;
+        }
+        .footer {
+            padding: 50px 0 0 0;
+        }}
+}
+
+
+

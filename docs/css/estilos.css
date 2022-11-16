@@ -1,0 +1,434 @@
+@charset "UTF-8";
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background-color: #373b41;
+  padding: 100px 0px 50px 0px;
+  /* de 960 para abajo px - TABLETS para abajo */
+}
+footer div h2 {
+  font-weight: 600;
+}
+footer div .tamaño_redes {
+  width: 35px;
+  height: 35px;
+}
+footer div .tamaño_contacto {
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 960px) {
+  footer .textoNosotros {
+    display: none;
+  }
+  footer .textoContacto {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  footer .imgRedes {
+    justify-content: center;
+  }
+  footer .imgContactos {
+    display: flex;
+    justify-content: center;
+  }
+  footer .footer {
+    padding: 50px 0 0 0;
+  }
+}
+
+header {
+  height: 650px;
+  background-size: cover;
+  position: relative;
+  background-image: url(../../img/Header.png);
+}
+header nav div div ul li {
+  font-weight: 600;
+}
+header nav div div ul li a:hover {
+  color: #3d3d3d !important;
+  background-color: #eeeeee;
+  font-weight: 600;
+}
+header nav a img {
+  width: 300px;
+}
+
+.titulo {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-55%);
+}
+
+.ajuste_lineas {
+  margin: 0;
+}
+
+.btn {
+  background-color: #ff751c;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 30px;
+  font-size: 25px;
+  position: absolute;
+  top: 75%;
+  transform: translateY(-45%);
+}
+
+.btn:hover {
+  color: #3d3d3d;
+  background-color: #eeeeee;
+  border-radius: 20px;
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+@media (max-width: 960px) {
+  .navbar-nav {
+    background-color: #ff751c;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 30px;
+  }
+  nav {
+    z-index: 100;
+  }
+  .logoprincipal {
+    width: 250px;
+  }
+  .titulo {
+    font-size: 45px;
+    text-align: center;
+  }
+  .containerPrincipal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .centerBtn {
+    display: flex;
+    justify-content: center;
+  }
+  #containerBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main h2 {
+    margin: 30px 0px;
+  }
+}
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media (max-width: 430px) {
+  .titulo {
+    font-size: 30px;
+  }
+  .subtitleFont {
+    padding: 20px 10px;
+  }
+  .titleFont {
+    font-size: 30px;
+    padding-top: 0;
+    margin-top: 0%;
+  }
+  #textoVision {
+    margin: 0%;
+  }
+}
+.headerNosotros {
+  background-image: url(../../img/Header-Nosotros.png);
+  height: 650px;
+  background-size: cover;
+  position: relative;
+}
+
+#subtitleNosotros {
+  margin-top: 300px;
+}
+
+.subtituloNosotros {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+@media (max-width: 960px) {
+  .containerSubtitulo {
+    justify-content: center;
+  }
+  #subtitleNosotros {
+    margin-top: 300px;
+  }
+}
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media (max-width: 430px) {
+  .tituloMovilNosotros {
+    top: 40%;
+    margin-left: 30px;
+  }
+  #subtitleNosotros {
+    margin-top: 250px;
+  }
+}
+.headerPlanos {
+  background-image: url(../../img/Header-Planos.png);
+  height: 650px;
+  background-size: cover;
+  position: relative;
+}
+
+#subtitlePlanos {
+  margin-top: 300px;
+}
+
+.subtituloPlanos {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+@media (max-width: 960px) {
+  .containerSubtitulo {
+    justify-content: center;
+  }
+  #subtitlePlanos {
+    margin-top: 250px;
+  }
+  .tituloMovilPlanos {
+    top: 40%;
+    margin-left: 120px;
+  }
+}
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media (max-width: 430px) {
+  .tituloMovilPlanos {
+    top: 40%;
+    margin-left: 120px;
+  }
+}
+.headerServicios {
+  background-image: url(../../img/Header-Servicios.png);
+  height: 650px;
+  background-size: cover;
+  position: relative;
+}
+
+#subtitleServicios {
+  margin-top: 300px;
+}
+
+.subtituloServicios {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+@media (max-width: 960px) {
+  .containerSubtitulo {
+    justify-content: center;
+  }
+  #subtitleServicios {
+    margin-top: 250px;
+  }
+  .tituloMovilServicios {
+    top: 40%;
+    margin-left: 100px;
+  }
+}
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media (max-width: 430px) {
+  .tituloMovilServicios {
+    top: 40%;
+    margin-left: 100px;
+  }
+}
+.headerContacto {
+  background-image: url(../../img/Header-Contacto.png);
+  height: 650px;
+  background-size: cover;
+  position: relative;
+}
+.headerContacto #subtitleContacto {
+  margin-top: 200px;
+}
+.headerContacto .subtituloContacto {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+/* de 960 para abajo px - TABLETS para abajo */
+@media (max-width: 960px) {
+  .containerSubtitulo {
+    justify-content: center;
+  }
+  #subtitleContacto {
+    margin-top: 250px;
+  }
+  #botonMsj {
+    display: none;
+  }
+}
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media (max-width: 430px) {
+  .headerContacto #subtitleContacto {
+    margin-top: 120px;
+  }
+  #botonMsj {
+    display: none;
+  }
+}
+.container {
+  max-width: 1300px;
+}
+
+#seccion1 {
+  padding: 8% 0;
+}
+
+.fondogris {
+  background-color: #eeeeee;
+}
+
+#seccion2 {
+  background-color: #ff751c;
+}
+
+.row_distribuidoras {
+  padding: 100px 0 100px 0;
+}
+
+.img_distribuidoras {
+  padding-bottom: 200px;
+}
+
+.textogris {
+  color: #3d3d3d;
+}
+
+.fontConfig {
+  font-weight: 600;
+}
+
+.titleFont {
+  font-size: 45px;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+.subtitleFont {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.preguntasNosotros {
+  margin-bottom: 100px;
+}
+
+.contenedor1 {
+  width: 80%;
+}
+
+.imgVision {
+  width: 75%;
+}
+
+#textoVision {
+  padding: 48px 0px;
+}
+
+/* a partir de 960 px - ESCRITORIO */
+@media (min-width: 960px) {
+  .imgNaturgy {
+    margin-bottom: 40px;
+    width: 75%;
+  }
+  .imgMetrogas {
+    margin-bottom: 80px;
+    width: 75%;
+  }
+  .imgCamuzzi {
+    margin-bottom: 40px;
+    width: 75%;
+  }
+}
+/* de 960 para abajo px - TABLETS para abajo */
+@media (max-width: 960px) {
+  .containerMoneda {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  .textoMoneda {
+    text-align: center;
+    line-height: 28px;
+    padding-bottom: 50px;
+  }
+  #seccion2 h2 {
+    text-align: center;
+  }
+  .img_distribuidoras {
+    flex-direction: column;
+    padding-bottom: 150px;
+  }
+  .imgNaturgy {
+    margin-bottom: 40px;
+    width: 35%;
+  }
+  .imgMetrogas {
+    margin-bottom: 55px;
+    width: 35%;
+  }
+  .imgCamuzzi {
+    margin-bottom: 40px;
+    width: 35%;
+  }
+  .direccion {
+    flex-direction: column;
+  }
+  #containerVisionImg {
+    justify-content: center;
+  }
+  .imgVision {
+    width: 35%;
+  }
+  #textoVision {
+    text-align: center;
+    padding-top: 0%;
+  }
+  .subtitleFont {
+    font-size: 20px;
+    padding: 0 100px;
+  }
+  .imgPlanos {
+    scale: 0.95;
+  }
+}
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+@media (max-width: 430px) {
+  .titulo {
+    font-size: 30px;
+  }
+  .subtitleFont {
+    padding: 20px 10px;
+  }
+  .titleFont {
+    font-size: 30px;
+    padding-top: 0;
+    margin-top: 0%;
+  }
+  .imgPlanos {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

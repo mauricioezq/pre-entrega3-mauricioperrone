@@ -1,0 +1,142 @@
+
+.container{
+    max-width: 1300px;
+}
+
+#seccion1{
+    padding: 8% 0;
+}
+.fondogris{
+    background-color: #eeeeee;
+}
+#seccion2{
+    background-color: #ff751c;
+}
+
+.row_distribuidoras{
+    padding: 100px 0 100px 0
+}
+
+.img_distribuidoras{
+    padding-bottom: 200px;
+}
+.textogris{
+    color: #3d3d3d;
+}
+
+.fontConfig{
+    font-weight: 600;
+}
+
+.titleFont{
+    font-size: 45px;
+    font-weight: 600;
+    color: #3d3d3d
+}
+.subtitleFont{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.preguntasNosotros{
+    margin-bottom: 100px;
+}
+.contenedor1{
+    width: 80%;
+}
+.imgVision{
+    width: 75%;
+}
+#textoVision{
+    padding: 48px 0px;
+}
+/* a partir de 960 px - ESCRITORIO */
+@media(min-width:960px){
+    .imgNaturgy{
+        margin-bottom: 40px;
+        width: 75%;
+    }
+    .imgMetrogas{
+        margin-bottom: 80px;
+        width: 75%;
+    }
+    .imgCamuzzi{
+        margin-bottom: 40px;
+        width: 75%;
+    }}
+
+/* de 960 para abajo px - TABLETS para abajo */
+
+    @media(max-width:960px){
+        
+            .containerMoneda{display: flex;
+            justify-content: center;
+            padding: 30px 0;}
+        
+            .textoMoneda{
+                text-align: center;
+                line-height: 28px;
+                padding-bottom: 50px;}
+
+            #seccion2 h2{
+                text-align: center;
+            }
+        
+            .img_distribuidoras{flex-direction: column;
+                padding-bottom: 150px;
+            }
+        
+            .imgNaturgy{
+                margin-bottom: 40px;
+                width: 35%;
+            }
+            .imgMetrogas{
+                margin-bottom: 55px;
+                width: 35%;
+            }
+            .imgCamuzzi{
+                margin-bottom: 40px;
+                width: 35%;
+
+            }
+
+            .direccion{
+                flex-direction: column;
+            }
+            #containerVisionImg{
+                justify-content: center;
+            }
+            .imgVision{
+                width: 35%;
+            }
+            #textoVision{
+                text-align: center;
+                padding-top: 0%;
+            }
+            .subtitleFont{
+                font-size: 20px;
+                padding: 0 100px;
+            }
+
+            .imgPlanos{
+                scale: 0.95;
+            }
+            }
+
+/* de 430 para abajo px - CELULARES CHICOS para abajo */
+     @media(max-width:430px){
+            
+            .titulo{
+                font-size: 30px;
+            }
+            .subtitleFont {
+                padding: 20px 10px;
+            }
+            .titleFont{
+                font-size: 30px;
+                padding-top: 0;
+                margin-top: 0%;
+            } 
+            .imgPlanos{
+                display: none;
+            }}

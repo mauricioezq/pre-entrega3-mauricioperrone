@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="icon" href="../img/Prisma.png" type="image/png"/>
+    <title>Prisma</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- CSS main -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header class="headerNosotros">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-md" id="containerHeader"> 
+                <a href="../index.html"><img class="logoprincipal" src="../img/Logo Membrete.png" alt="Prisma"></a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menuDesplegable">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menuDesplegable">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mb-3 px-2">
+                            <a class="nav-link text-light fontConfig " href="pages/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item mb-3 px-2">
+                            <a class="nav-link text-light fontConfig" href="pages/planos.html">PLANOS</a>
+                        </li>
+                        <li class="nav-item mb-3 px-2">
+                            <a class="nav-link text-light fontConfig" href="pages/servicios.html">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item mb-3 px-2">
+                            <a class="nav-link text-light fontConfig" href="pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-sm containerPrincipal ">
+            <div>
+                <div class="container" id="containerSubtitulo">
+                    <div class="col-md-8">
+                        <p class=" titulo tituloMovilNosotros animate__animated animate__fadeInUp ajuste_lineas">¿Quienes Somos?</p>
+                        <p class=" subtituloNosotros animate__animated animate__fadeInUp" id="subtitleNosotros">Somos un grupo de personas que se dedica a la resolución
+                        de problemas administrativos en el
+                        rubro del gas natural o envasado.</p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row direccion">
+                <div class="my-5 py-5 col d-flex align-items-center" id="containerVisionImg">
+                    <img class="imgVision" src="../img/Vision3.png" alt="Prisma">
+                </div>
+                <div class="my-5 col " id="textoVision">
+                    <h2 class="animate__animated animate__fadeInUp titleFont mb-4">
+                        Nuestra Vision
+                    </h2>
+                    <p class=" animate__animated animate__fadeInUp  mb-4 subtitleFont">
+                        Desde un principio, siempre apuntamos a poder brindar una ayuda al matriculado que, con el avance de las nuevas tecnologías, se ha visto rodeado de determinado procesos 
+                        los cuales, sin su correcta gestion, pueden ocasionar tanto demoras para habilitaciones, como en pérdidas de nuevos clientes del servicio.
+                    </p>
+                    <p class="subtitleFont">
+                        De igual manera, sea por una cuestion de falta de tiempo, o falta de conocimiento del colega matriculado, tenemos ese objetivo de poder ser de utilidad
+                        en cada proceso de habilitacion de la obra, como en la ejecucion de planos, tramites, inspecciones, entre otras cosas.
+                    </p>
+                </div>
+            </div>    
+        </div>
+    </main>
+    <section>
+        <div class="row text-center">
+            <h2 class="titleFont my-5">Acerca de Nosotros</h2>
+            <div class="container">
+                <p class=" mb-5 subtitleFont">
+                Para brindarles más información acerca de nosotros decidimos dejar algunas preguntas básicas.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+    <section class="preguntasNosotros">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>¿Donde estamos ubicados?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Estamos ubicados en Buenos Aires, Argentina, siendo más específico en GBA Oeste, en el partido de La Matanza, en la localidad de Rafael Castillo. Nuestro código postal es 1755
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>¿En que localidades / zonas trabajamos?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Trabajamos principalmente en el Gran Buenos Aires, zona norte y zona oeste; tambíén realizamos relevamientos en C.A.B.A. (Ciudad Autónoma de Bs. As.). Gracias a las nuevas
+                        tecnologías, hoy en dia, tenemos alcance practicamente a todo el país, habiendo trabajado con gasistas de otras provincias.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>¿Manejamos oficinas presenciales?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Por el momento no disponemos de lugares fisicos para brindar atención, con el proceso vivido durante la pandemia se ha tenido que cerrar la oficina de atención que disponíamos. No obstante, daremos aviso cuando, nuevamente,
+                        podamos estar de manera presencial.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <strong>¿Desde cuándo estamos trabajando en el rubro?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        Al dia de hoy, contamos con 7 años de experiencia. Habiendo atravesado por varios cambios de firmas y nombres, Prisma es la que hemos decidido conservar permanentemente.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-dark footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4     text-light textoNosotros">
+                    <h2 class="fontConfig ">NOSOTROS</h2>
+                    <p>Nos encargamos de estar presente en cada momento de la obra, contamos con experiencia en el armado de planos de gas en las distintas distribuidoras</p>
+                </div>
+                <div class="col text-light textoContacto">
+                    <h2 class="fontConfig">CONTACTO</h2>
+                    <p>Podes contactarte de las siguientes maneras:</p>
+                    <div class="contactoDatos">
+                        <div class="d-flex align-items-center imgContactos">
+                            <img class="tamaño_contacto" src="../img/whatsapp.png" alt="Contacto">
+                            <p class="px-2 mb-1 fs-6">(011)5118-4708</p>
+                        </div>
+                        <div class="d-flex align-items-center imgContactos">
+                            <img class="tamaño_contacto" src="../img/gmail.png" alt="Contacto">
+                            <p class="px-2 mb-1 fs-6">prisma.soluciones.adm@gmail.com</p>
+                        </div>
+                        <div class="d-flex align-items-center imgContactos">
+                            <img class="tamaño_contacto" src="../img/atencion-al-cliente.png" alt="Contacto">
+                            <p class="px-2 mb-1 fs-6">Lunes a Viernes 9:00 a 16:00 hs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-light textoContacto">
+                    <h2 class="fontConfig">NUESTRAS REDES</h2>
+                    <p>¡Seguinos en nuestras redes sociales para estar informado de cada novedad!</p>
+                    <div class="d-flex imgRedes">
+                        <a target="_blank" href="https://www.instagram.com">
+                            <img class="tamaño_redes"src="../img/Instagram.png" alt="prisma">
+                        </a>
+                        <a target="_blank" class="px-3" href="https://www.facebook.com">
+                            <img class="tamaño_redes"src="../img/Facebook.png" alt="prisma">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
